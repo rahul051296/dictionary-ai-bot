@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+#chat-container {
+    height: 500px;
+    margin-top: 30px;
+    padding: 30px;
+    overflow-y: auto;
+}
+li{
+    list-style: none;
+}
+h2{
+    background: #3598db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sender{
+    background: #3598db;
+    color: #fff;
+    border-radius: 10px;
+    float: right;
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.responder{
+    background: #e7eaf1;
+    color: #000;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#main-box {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0;
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
+}
+#input{
+    margin-left: 0px;
+    margin-right: 0px;
+}

@@ -1,0 +1,34 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_word
+- utter_meaning
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_word
+- actions.ActionSearch
+config:
+  store_entities_as_slots: true
+entities:
+- word
+intents:
+- greet
+- goodbye
+- fetch
+slots:
+  word:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_word:
+  - text: Tell me the word?
+  utter_goodbye:
+  - text: Bye man!
+  - text: Bye dude :/
+  - text: See you soon! :)
+  utter_greet:
+  - text: Hey! How can i help?
+  - text: Hey, What's up?
+topics: []

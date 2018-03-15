@@ -1,0 +1,236 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "heyya"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi man"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hey dude"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hie"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hai"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Bye dude"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Got to run"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you "
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "c u"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bubye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye man"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye bot"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "Dog",
+            "entity": "word"
+          }
+        ],
+        "text": "What is the meaning of Dog?"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "example",
+            "entity": "word"
+          }
+        ],
+        "text": "What does example mean?"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "life",
+            "entity": "word"
+          }
+        ],
+        "text": "meaning of life"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "egg",
+            "entity": "word"
+          }
+        ],
+        "text": "egg meaning"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "weather",
+            "entity": "word"
+          }
+        ],
+        "text": "What does weather mean?"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "poor",
+            "entity": "word"
+          }
+        ],
+        "text": "get me the meaning of poor"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "field",
+            "entity": "word"
+          }
+        ],
+        "text": "then what does field mean?"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "body",
+            "entity": "word"
+          }
+        ],
+        "text": "What do you mean by body"
+      },
+      {
+        "intent": "fetch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "god",
+            "entity": "word"
+          }
+        ],
+        "text": "god means?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

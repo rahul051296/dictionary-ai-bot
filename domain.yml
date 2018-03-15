@@ -1,0 +1,31 @@
+slots:
+  word:
+    type: text
+  
+  
+intents:
+ - greet
+ - goodbye
+ - fetch
+ 
+ 
+entities:
+ - word
+  
+templates:
+  utter_greet:
+    - "Hey! How can i help?"
+    - "Hey, What's up?"
+  utter_goodbye:
+    - "Bye man!"
+    - "Bye dude :/"
+    - "See you soon! :)"
+  utter_ask_word:
+    - "Tell me the word?"
+        
+
+actions:
+    - utter_greet
+    - utter_goodbye
+    - utter_ask_word
+    - actions.ActionSearch
