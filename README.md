@@ -1,2 +1,3 @@
-# dictionary-ai-bot
-An Artificially Intelligent chat bot developed with Rasa core and Rasa NLU
+# Dictionary AI BOT
+
+An AI chatbot built with Rasa Stack (Rasa NLU + Rasa Core) which can tell you meanings of English words.
